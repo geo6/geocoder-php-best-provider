@@ -26,7 +26,7 @@ class BeStTest extends BaseTestCase
 
     /**
      * @expectedException \Geocoder\Exception\UnsupportedOperation
-     * @expectedExceptionMessage The Pelias provider does not support IP addresses, only street addresses.
+     * @expectedExceptionMessage The best provider does not support IP addresses, only street addresses.
      */
     public function testGeocodeWithLocalhostIPv4()
     {
@@ -36,7 +36,7 @@ class BeStTest extends BaseTestCase
 
     /**
      * @expectedException \Geocoder\Exception\UnsupportedOperation
-     * @expectedExceptionMessage The Pelias provider does not support IP addresses, only street addresses.
+     * @expectedExceptionMessage The best provider does not support IP addresses, only street addresses.
      */
     public function testGeocodeWithLocalhostIPv6()
     {
@@ -46,7 +46,7 @@ class BeStTest extends BaseTestCase
 
     /**
      * @expectedException \Geocoder\Exception\UnsupportedOperation
-     * @expectedExceptionMessage The Pelias provider does not support IP addresses, only street addresses.
+     * @expectedExceptionMessage The best provider does not support IP addresses, only street addresses.
      */
     public function testGeocodeWithRealIPv6()
     {
