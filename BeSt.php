@@ -12,8 +12,8 @@ declare(strict_types=1);
 
 namespace Geocoder\Provider\BeSt;
 
-use Geocoder\Provider\Provider;
 use Geocoder\Provider\Pelias\Pelias;
+use Geocoder\Provider\Provider;
 use Http\Client\HttpClient;
 
 /**

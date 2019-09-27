@@ -25,7 +25,7 @@ class IntegrationTest extends ProviderIntegrationTest
     protected $testIpv6 = false;
 
     protected $skippedTests = [
-        'testGeocodeQuery' => 'BeSt covers Belgium only.'
+        'testGeocodeQuery' => 'BeSt covers Belgium only.',
     ];
 
     protected function createProvider(HttpClient $httpClient)
@@ -35,11 +35,10 @@ class IntegrationTest extends ProviderIntegrationTest
 
     protected function getCacheDir()
     {
-        return __DIR__ . '/.cached_responses';
+        return __DIR__.'/.cached_responses';
     }
 
     protected function getApiKey()
     {
-        return null;
     }
 }

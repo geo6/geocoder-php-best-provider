@@ -21,7 +21,7 @@ class BeStTest extends BaseTestCase
 {
     protected function getCacheDir()
     {
-        return __DIR__ . '/.cached_responses';
+        return __DIR__.'/.cached_responses';
     }
 
     /**
