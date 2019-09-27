@@ -13,6 +13,7 @@
     "require": {
         "php": "^7.0",
         "geocoder-php/common-http": "^4.1",
+        "geocoder-php/pelias-provider": "^1.0",
         "willdurand/geocoder": "^4.0"
     },
     "provide": {
@@ -31,9 +32,6 @@
         "psr-4": {
             "Geocoder\\Provider\\BeSt\\": ""
         },
-        "files": [
-            "../../Geocoder/src/Provider/Pelias/Pelias.php"
-        ],
         "exclude-from-classmap": [
             "/Tests/"
         ]
